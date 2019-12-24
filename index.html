@@ -1909,7 +1909,7 @@
                         <div class="clearfix">
                             <div class="center-modal-content">
                                 <div class="close" data-dismiss="modal" aria-hidden="true">×</div>
-                                <img src="storage.html" alt="" class="img-responsive lozad">
+                                <img src="" alt="" class="img-responsive lozad">
                                 <div class="details"></div>
                             </div>
                         </div>
@@ -1923,7 +1923,7 @@
                         <div class="clearfix">
                             <div class="center-modal-content">
                                 <div class="close" data-dismiss="modal" aria-hidden="true">×</div>
-                                <img src="storage.html" alt="" class="img-responsive lozad">
+                                <img src="" alt="" class="img-responsive lozad">
                                 <div class="details"></div>
                             </div>
                         </div>
@@ -1937,7 +1937,7 @@
                         <div class="clearfix">
                             <div class="center-modal-content">
                                 <div class="close" data-dismiss="modal" aria-hidden="true">×</div>
-                                <img src="storage.html" alt="" class="img-responsive lozad">
+                                <img src="" alt="" class="img-responsive lozad">
                                 <div class="details">
                                     <p>&nbsp;</p>
                                     <p>&nbsp;</p>
@@ -1954,7 +1954,7 @@
                         <div class="clearfix">
                             <div class="center-modal-content">
                                 <div class="close" data-dismiss="modal" aria-hidden="true">×</div>
-                                <img src="storage.html" alt="" class="img-responsive lozad">
+                                <img src="" alt="" class="img-responsive lozad">
                                 <div class="details"></div>
                             </div>
                         </div>
@@ -1968,7 +1968,7 @@
                         <div class="clearfix">
                             <div class="center-modal-content">
                                 <div class="close" data-dismiss="modal" aria-hidden="true">×</div>
-                                <img src="storage.html" alt="" class="img-responsive lozad">
+                                <img src="" alt="" class="img-responsive lozad">
                                 <div class="details"></div>
                             </div>
                         </div>
@@ -1982,7 +1982,7 @@
                         <div class="clearfix">
                             <div class="center-modal-content">
                                 <div class="close" data-dismiss="modal" aria-hidden="true">×</div>
-                                <img src="storage.html" alt="" class="img-responsive lozad">
+                                <img src="" alt="" class="img-responsive lozad">
                                 <div class="details"></div>
                             </div>
                         </div>
@@ -1996,7 +1996,7 @@
                         <div class="clearfix">
                             <div class="center-modal-content">
                                 <div class="close" data-dismiss="modal" aria-hidden="true">×</div>
-                                <img src="storage.html" alt="" class="img-responsive lozad">
+                                <img src="" alt="" class="img-responsive lozad">
                                 <div class="details"></div>
                             </div>
                         </div>
@@ -2010,7 +2010,7 @@
                         <div class="clearfix">
                             <div class="center-modal-content">
                                 <div class="close" data-dismiss="modal" aria-hidden="true">×</div>
-                                <img src="storage.html" alt="" class="img-responsive lozad">
+                                <img src="" alt="" class="img-responsive lozad">
                                 <div class="details"></div>
                             </div>
                         </div>
@@ -2024,7 +2024,7 @@
                         <div class="clearfix">
                             <div class="center-modal-content">
                                 <div class="close" data-dismiss="modal" aria-hidden="true">×</div>
-                                <img src="storage.html" alt="" class="img-responsive lozad">
+                                <img src="" alt="" class="img-responsive lozad">
                                 <div class="details"></div>
                             </div>
                         </div>
@@ -2038,7 +2038,7 @@
                         <div class="clearfix">
                             <div class="center-modal-content">
                                 <div class="close" data-dismiss="modal" aria-hidden="true">×</div>
-                                <img src="storage.html" alt="" class="img-responsive lozad">
+                                <img src="" alt="" class="img-responsive lozad">
                                 <div class="details"></div>
                             </div>
                         </div>
@@ -2052,7 +2052,7 @@
                         <div class="clearfix">
                             <div class="center-modal-content">
                                 <div class="close" data-dismiss="modal" aria-hidden="true">×</div>
-                                <img src="storage.html" alt="" class="img-responsive lozad">
+                                <img src="" alt="" class="img-responsive lozad">
                                 <div class="details"></div>
                             </div>
                         </div>
@@ -2066,7 +2066,7 @@
                         <div class="clearfix">
                             <div class="center-modal-content">
                                 <div class="close" data-dismiss="modal" aria-hidden="true">×</div>
-                                <img src="storage.html" alt="" class="img-responsive lozad">
+                                <img src="" alt="" class="img-responsive lozad">
                                 <div class="details"></div>
                             </div>
                         </div>
@@ -2080,7 +2080,7 @@
                         <div class="clearfix">
                             <div class="center-modal-content">
                                 <div class="close" data-dismiss="modal" aria-hidden="true">×</div>
-                                <img src="storage.html" alt="" class="img-responsive lozad">
+                                <img src="" alt="" class="img-responsive lozad">
                                 <div class="details"></div>
                             </div>
                         </div>
@@ -2094,7 +2094,7 @@
                         <div class="clearfix">
                             <div class="center-modal-content">
                                 <div class="close" data-dismiss="modal" aria-hidden="true">×</div>
-                                <img src="storage.html" alt="" class="img-responsive lozad">
+                                <img src="" alt="" class="img-responsive lozad">
                                 <div class="details"></div>
                             </div>
                         </div>
@@ -2506,7 +2506,8 @@
         });
 
 
-        const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+        const el = document.querySelector('img');
+        const observer = lozad(el); // passing a `NodeList` (e.g. `document.querySelectorAll()`) is also valid
         observer.observe();
     </script>
 
