@@ -1,0 +1,32 @@
+HTTrack3.49-2 launched on Tue, 24 Dec 2019 02:07:44 at http://localhost:8000/
+(httrack http://localhost:8000/ )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+02:43:04	Error: 	"Not Found" (404) at link localhost:8000/www.shahad-al-bilad.com/socialapp (from localhost:8000/)
+02:43:04	Warning: 	Retry after error 500 (Internal Server Error) at link localhost:8000/download-resume (from localhost:8000/)
+02:43:04	Error: 	"Not Found" (404) at link localhost:8000/storage (from localhost:8000/)
+02:43:04	Warning: 	File not parsed, looks like binary: localhost:8000/assets/fonts/Simple-Line-Icons.html
+02:43:04	Warning: 	Warning: store application/octet-stream without scan: localhost_8000/assets/fonts/Simple-Line-Icons.html
+02:43:04	Warning: 	File not parsed, looks like binary: localhost:8000/assets/fonts/Simple-Line-Iconsd41d.html?
+02:43:04	Warning: 	Warning: store application/octet-stream without scan: localhost_8000/assets/fonts/Simple-Line-Iconsd41dd41d.html
+02:43:04	Warning: 	File not parsed, looks like binary: localhost:8000/assets/fonts/Simple-Line-Icons-2.html
+02:43:04	Warning: 	Warning: store application/octet-stream without scan: localhost_8000/assets/fonts/Simple-Line-Icons-2.html
+02:43:04	Warning: 	File not parsed, looks like binary: localhost:8000/assets/fonts/Simple-Line-Icons-3.html
+02:43:04	Warning: 	Warning: store application/octet-stream without scan: localhost_8000/assets/fonts/Simple-Line-Icons-3.html
+02:43:04	Warning: 	File not parsed, looks like binary: localhost:8000/assets/fonts/fontawesome-webfont78ce.html?v=4.2.0
+02:43:04	Warning: 	Warning: store application/octet-stream without scan: localhost_8000/assets/fonts/fontawesome-webfont78ce78ce.html
+02:43:04	Warning: 	File not parsed, looks like binary: localhost:8000/assets/fonts/fontawesome-webfontd41d.html?
+02:43:04	Warning: 	Warning: store application/octet-stream without scan: localhost_8000/assets/fonts/fontawesome-webfontd41dd41d.html
+02:43:04	Warning: 	File not parsed, looks like binary: localhost:8000/assets/fonts/fontawesome-webfont78ce-2.html?v=4.2.0
+02:43:04	Warning: 	Warning: store application/octet-stream without scan: localhost_8000/assets/fonts/fontawesome-webfont78ce-278ce.html
+02:43:04	Warning: 	File not parsed, looks like binary: localhost:8000/assets/fonts/fontawesome-webfont78ce-3.html?v=4.2.0
+02:43:04	Warning: 	Warning: store application/octet-stream without scan: localhost_8000/assets/fonts/fontawesome-webfont78ce-378ce.html
+02:46:56	Warning: 	Retry after error 500 () at link localhost:8000/download-resume (from localhost:8000/)
+02:46:56	Error: 	"" (500) after 2 retries at link localhost:8000/download-resume (from localhost:8000/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 39 minutes 12 seconds : 107 links scanned, 101 files written (49630599 bytes overall) [50207677 bytes received at 21346 bytes/sec]
+(3 errors, 18 warnings, 0 messages)
