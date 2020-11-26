@@ -3124,6 +3124,9 @@ section.ss-style-roundedsplit::before, section.ss-style-roundedsplit::after {
 }
 
 @media only screen and (max-width: 990px) {
+    .timeline::before {
+        left: 50% !important;
+    }
 
     /* Home Style 2 */
     .home-heading2 {
@@ -3378,6 +3381,7 @@ section.ss-style-roundedsplit::before, section.ss-style-roundedsplit::after {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+
 
     /* Flex Slider */
     .slider-heading {
