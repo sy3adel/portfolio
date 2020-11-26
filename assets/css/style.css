@@ -2415,6 +2415,10 @@ body.modal-open-noscroll {
     font-size: .8em;
 }
 
+.percent.icon::after {
+    content: '';
+}
+
 .skill-title {
     font-size: 15px;
     line-height: 24px;
@@ -2513,7 +2517,7 @@ body.modal-open-noscroll {
 
 .timeline::before {
     position: absolute;
-    left: 50%;
+    left: -30px;
     top: 0;
     content: ' ';
     display: block;
@@ -2535,7 +2539,7 @@ body.modal-open-noscroll {
 }
 
 .timeline li {
-    padding: 1.7em 0;
+    padding: 1.0em 0;
 }
 
 .timeline li::after {
@@ -2555,8 +2559,8 @@ body.modal-open-noscroll {
 
 .direction-r {
     position: relative;
-    width: 400px;
-    float: right;
+    /*width: 400px;*/
+    /*float: right;*/
 }
 
 .direction-l::before,
@@ -3616,4 +3620,13 @@ section.ss-style-roundedsplit::before, section.ss-style-roundedsplit::after {
 
 .clearfix .details p {
     margin: 0 !important;
+}
+
+
+.m-0 {
+    margin: 0 !important;
+}
+
+.p-0 {
+    padding: 0 !important;
 }

@@ -11,10 +11,10 @@ jQuery(document).ready(function ($) {
             var $this = $(this);
             $this.owlCarousel(
                 {
-                    loop:true,
+                    loop: true,
                     autoPlay: true,
-                    autoplayTimeout:5000,
-                    autoplayHoverPause:false,
+                    autoplayTimeout: 5000,
+                    autoplayHoverPause: false,
                     items: $this.data('items'),
                     navigation: $this.data('navigation'),
                     singleItem: $this.data('singleitem'),
@@ -54,7 +54,7 @@ jQuery(document).ready(function ($) {
 //Home Slider Start
 
 
-//Preloader 
+//Preloader
 // ******************************************************************************************
 
     $("body").jpreLoader(
@@ -214,7 +214,7 @@ jQuery(document).ready(function ($) {
     });
 
 
-//Portfolio filters for Gallery 
+//Portfolio filters for Gallery
     $('#gallery-grid').mixitup({
         effects: ['fade', 'scale'],
         easing: 'snap'
@@ -264,7 +264,7 @@ jQuery(document).ready(function ($) {
 // Pie Chart
     $(function () {
         $('.chart').easyPieChart({
-            barColor: '#0084ffa0',
+            barColor: (value) => value === 101 ? '#00ff84a0': '#0084ffa0',
             trackColor: "#d5d5d5",
             lineWidth: 15,
             size: 180
@@ -285,7 +285,7 @@ jQuery(document).ready(function ($) {
         $('body').removeClass("modal-open-noscroll");
     })
 
-// tooltips 
+// tooltips
     $('[data-toggle="tooltip"]').tooltip();
 
 // Skills Page
@@ -334,7 +334,7 @@ wow = new WOW(
     }
 );
 wow.init();
-//   
-// wow end 
+//
+// wow end
 
 

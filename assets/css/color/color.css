@@ -1,20 +1,20 @@
-
 /* Preloader Css */
 #circle {
-	background: #0084ffa0;
+    background: #0084ffa0;
 }
+
 /* Preloader Css */
 
 /* Common Css */
-a, a:hover, 
-a:active, 
+a, a:hover,
+a:active,
 a:focus {
-	color:#0084ffa0;
+    color: #0084ffa0;
 }
 
-.fun-fact .chevron:before, 
+.fun-fact .chevron:before,
 .fun-fact .chevron:after {
-  background: rgba(30,174,199,0.8);
+    background: rgba(30, 174, 199, 0.8);
 }
 
 /* // Common Css */
@@ -22,41 +22,69 @@ a:focus {
 /* Vegas Slider */
 .s-prev:hover,
 .s-next:hover {
-  background-color: #0084ffa0;
+    background-color: #0084ffa0;
 }
+
 /* // Vegas Slider */
 
 /* Our Work */
 .project-overlay {
-	background:rgba(30,174,199,0.8);
+    background: rgba(30, 174, 199, 0.8);
 }
+
 /* // Our Work */
 
 /* Personal Profile */
 .about_content {
-	background-color: #0084ffa0;
+    background-color: #0084ffa0;
 }
+
 /* // Personal Profile */
 
 /* Experiance and Education */
-.direction-l:before, 
+.direction-l:before,
 .direction-r:before {
-	border: 4px solid rgb(174,199,30);
+    border: 4px solid rgb(174, 199, 30);
 }
+
+.company.direction-l:before,
+.company.direction-r:before {
+    border: 4px solid #B6B9BC;
+}
+
+
+.education.direction-l:before,
+.education.direction-r:before {
+    border: 4px solid rgb(174, 30, 199);
+}
+
+.volunteer.direction-l:before,
+.volunteer.direction-r:before {
+    border: 4px solid rgb(30, 174, 199);
+}
+
+.honor.direction-l:before,
+.honor.direction-r:before {
+    border: 4px solid rgb(255, 174, 30);
+}
+
+
 /* // Experiance and Education */
 
 /* Contact */
-input[type="text"]:focus,  
-textarea:focus { 
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(174,199,30,0.6);
-    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(174,199,30,0.6);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(174,199,30,0.6); 
+input[type="text"]:focus,
+textarea:focus {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(174, 199, 30, 0.6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(174, 199, 30, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(174, 199, 30, 0.6);
 }
+
 /* //  Contact  */
 
 /* Back To Top */
-#back_to_top:hover, 
+#back_to_top:hover,
 .touch-device #back_to_top:active {
-  background-color: #0084ffa0;
+    background-color: #0084ffa0;
 }
+
 /* // Back To Top */
